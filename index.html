@@ -11,18 +11,20 @@
       padding: 0;
       font-family: Arial, sans-serif;
       text-align: center;
-      background: #fff;
+      background-color: #f5f5f5;
     }
-    .header-photo {
+    .hero {
+      background-image: url('bg-juliano-topportrait.jpg');
+      background-size: cover;
+      background-position: center top;
+      background-repeat: no-repeat;
+      height: 340px;
       width: 100%;
-      max-height: 480px;
-      object-fit: cover;
-      display: block;
     }
     .overlay {
-      background-color: rgba(255, 255, 255, 0.92);
+      background-color: rgba(255, 255, 255, 0.96);
       padding: 30px 20px;
-      min-height: 100vh;
+      margin-top: -100px;
     }
     img.logo {
       max-width: 180px;
@@ -76,8 +78,7 @@
   </style>
 </head>
 <body>
-  <img src="bg-juliano-portrait.jpg" alt="Foto de Juliano Garbuggio" class="header-photo">
-
+  <div class="hero"></div>
   <div class="overlay">
     <img src="logo.png" alt="Logo Juliano Garbuggio" class="logo">
     <h2>Juliano Garbuggio</h2>
