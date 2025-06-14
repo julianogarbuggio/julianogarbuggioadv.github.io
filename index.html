@@ -10,35 +10,39 @@
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
-      text-align: center;
       background-color: #f5f5f5;
     }
+
+    /* Imagem no topo */
     .hero {
-      background-image: url('bg-juliano-topportrait.jpg');
-      background-size: cover;
-      background-position: center top;
-      background-repeat: no-repeat;
-      height: 340px;
       width: 100%;
+      height: 260px;
+      background: url('bg-juliano-portrait.jpg') no-repeat center top;
+      background-size: cover;
     }
+
     .overlay {
-      background-color: rgba(255, 255, 255, 0.96);
+      background-color: rgba(255, 255, 255, 0.95);
       padding: 30px 20px;
-      margin-top: -100px;
+      text-align: center;
     }
+
     img.logo {
       max-width: 180px;
       margin: 20px auto;
       display: block;
     }
+
     h2 {
       margin: 10px 0 5px;
       font-size: 22px;
     }
+
     p {
       font-size: 14px;
       color: #333;
     }
+
     .button {
       display: block;
       width: 220px;
@@ -50,18 +54,22 @@
       font-weight: bold;
       transition: background-color 0.3s ease;
     }
+
     .button.blue { background-color: #007BFF; }
     .button.green { background-color: #28a745; }
     .button.pink { background-color: #d63384; }
     .button.gray { background-color: #6c757d; }
+
     .button:hover {
       filter: brightness(1.1);
     }
+
     footer {
       margin-top: 40px;
       font-size: 13px;
       color: #666;
     }
+
     @media (max-width: 600px) {
       .button {
         width: 90%;
@@ -78,7 +86,10 @@
   </style>
 </head>
 <body>
+  <!-- Topo com sua foto -->
   <div class="hero"></div>
+
+  <!-- Conteúdo com logo e botões -->
   <div class="overlay">
     <img src="logo.png" alt="Logo Juliano Garbuggio" class="logo">
     <h2>Juliano Garbuggio</h2>
